@@ -18,7 +18,8 @@ namespace Laboration_4
 
         };
         Console.WriteLine(myPerson.ToString());
-        Console.ReadKey();
+        Console.WriteLine("Press enter to exit...");
+        Console.ReadLine();
     }
   } 
 }

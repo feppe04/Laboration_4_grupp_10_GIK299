@@ -16,11 +16,11 @@ namespace Laboration_4
         public Hair Hair { get; set; }
         public override string ToString()
         {
-            return $"Name:{FirstName} {LastName}\n" +
-                   $"Gender:{Gender}\n" +
-                   $"Hair:{Hair.Color},{Hair.Lenght}\n" +
-                   $"Birthday:{BirthDay.ToShortDateString()}\n" +
-                   $"Eyecolor:{EyeColor}";
+            return $"Name: {FirstName} {LastName}\n" +
+                   $"Gender: {Gender}\n" +
+                   $"Hair: {Hair.Color}, {Hair.Lenght}\n" +
+                   $"Birthday: {BirthDay.ToShortDateString()}\n" +
+                   $"Eyecolor: {EyeColor}\n";
 
 
         }
