@@ -18,7 +18,7 @@ namespace Laboration_4
         {
             return $"Name:{FirstName} {LastName}\n" +
                    $"Gender:{Gender}\n" +
-                   $"Hair:{Hair.Color},{Hair.Lenght}\n" +
+                   $"Hair:{Hair.Color},{Hair.Length}\n" +
                    $"Birthday:{BirthDay.ToShortDateString()}\n" +
                    $"Eyecolor:{EyeColor}";
 

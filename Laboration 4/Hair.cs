@@ -9,12 +9,12 @@ namespace Laboration_4
     public struct Hair
     {
         public string Color  { get; set; }
-        public string Lenght { get; set; }
+        public string Length { get; set; }
 
-        public Hair(string color, string lenght)
+        public Hair(string color, string length)
         {
             Color = color;
-            Lenght = lenght;
+            Length = length;
         }
     }
 }
